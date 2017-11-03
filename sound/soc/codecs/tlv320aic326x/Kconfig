@@ -1,0 +1,7 @@
+#ZTE BSP wgh add for codec  TLV320AIC326X begin
+config SND_SOC_TLV320AIC326X
+	tristate "TI AIC326x Codec"
+#ZTE BSP wgh add for codec  TLV320AIC326X end	
+config TLV320AIC326x_U970_VERSION
+	int "TLV320AIC326x for U970"
+	default 0
